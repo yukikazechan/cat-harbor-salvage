@@ -1,0 +1,26 @@
+127.0.0.1 - - [01/Oct/2026 18:28:14] "GET / HTTP/1.1" 200 -
+PASS: initial auction / four independent offers
+PASS: insufficient funds cannot buy
+PASS: purchase debits and opens game
+PASS: first cut large plate via pointer, no gate
+PASS: fake reversal cliff / UI / cracks
+PASS: sell fake box returns to lobby
+PASS: relief credited
+PASS: settlement auto-appraises genuine
+PASS: only real treasure collected
+PASS: passive dividends accrue
+PASS: gallery details description date valuation
+127.0.0.1 - - [01/Oct/2026 18:28:23] "GET / HTTP/1.1" 304 -
+PASS: collection and wallet persisted
+PASS: offline dividends capped at eight hours
+127.0.0.1 - - [01/Oct/2026 18:28:23] "GET / HTTP/1.1" 304 -
+PASS: active box resumes without another charge
+PASS: mobile touchscreen cuts freely
+PASS: keyboard freely cuts first large plate
+PASS: sell genuine assets credits cash, no duplicate collection
+PASS: no horizontal overflow at 320px
+PASS: no horizontal overflow at 390px
+PASS: no horizontal overflow at 768px
+PASS: no horizontal overflow at 1280px
+PASS: no browser JS runtime errors
+VALIDATION COMPLETE: 22 checks passed; JavaScript syntax passed.
