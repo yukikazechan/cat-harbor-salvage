@@ -1,26 +1,27 @@
-127.0.0.1 - - [01/Oct/2026 18:28:14] "GET / HTTP/1.1" 200 -
-PASS: initial auction / four independent offers
-PASS: insufficient funds cannot buy
-PASS: purchase debits and opens game
-PASS: first cut large plate via pointer, no gate
-PASS: fake reversal cliff / UI / cracks
-PASS: sell fake box returns to lobby
-PASS: relief credited
-PASS: settlement auto-appraises genuine
-PASS: only real treasure collected
-PASS: passive dividends accrue
-PASS: gallery details description date valuation
-127.0.0.1 - - [01/Oct/2026 18:28:23] "GET / HTTP/1.1" 304 -
-PASS: collection and wallet persisted
-PASS: offline dividends capped at eight hours
-127.0.0.1 - - [01/Oct/2026 18:28:23] "GET / HTTP/1.1" 304 -
-PASS: active box resumes without another charge
-PASS: mobile touchscreen cuts freely
-PASS: keyboard freely cuts first large plate
-PASS: sell genuine assets credits cash, no duplicate collection
-PASS: no horizontal overflow at 320px
-PASS: no horizontal overflow at 390px
-PASS: no horizontal overflow at 768px
-PASS: no horizontal overflow at 1280px
-PASS: no browser JS runtime errors
-VALIDATION COMPLETE: 22 checks passed; JavaScript syntax passed.
+
+> container-salvage@1.0.0 test
+> node validate.cjs
+
+PASS: Node JavaScript syntax
+PASS: four auction offers
+PASS: purchase debits funds
+PASS: destination-out erases only the contact patch
+PASS: stationary hold cannot peel whole coating
+PASS: partial alpha-mask strokes survive reload
+PASS: real mouse zigzag reveals at 65 percent
+PASS: one-click laser animates before completion
+PASS: one-click reveals all, appraises, opens settlement
+PASS: certified treasure appears in gallery
+PASS: gallery detail opens
+PASS: gallery collection persists
+DISTRIBUTION: {"catalog":62,"smallRed":171,"largeJunk":212,"tiers":{"junk":1192,"gold":355,"purple":75,"mid":872,"red":364},"sizes":{"1":["purple","gold","junk","mid","red"],"2":["gold","mid","junk","red","purple"],"4":["gold","junk","mid","red","purple"],"6":["junk","mid","red","gold","purple"]},"packed":true}
+PASS: 62+ distinct items
+PASS: size-independent small reds and large junk
+PASS: containers tile 36 cells without overlaps
+PASS: fake appraisal collapses to scrap value
+PASS: all-sell settlement credits exact appraised value
+PASS: real mobile touch swipes erase coating
+PASS: mobile has no horizontal overflow
+PASS: mobile one-click reaches settlement
+PASS: no browser page errors on desktop/mobile
+ALL 21 CHECKS PASSED
